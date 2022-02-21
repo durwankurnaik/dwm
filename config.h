@@ -19,7 +19,8 @@ static const char dmenufont[]       = "Jetbrains Mono:size=11";
 
 /* tagging */
 //static const char *tags[] = { "1", "2", "3", "4", "5", "6", "7", "8", "9" };
-static const char *tags[] = { ">_", "{}", "www", "~/", "(/)", "^_^" };
+//static const char *tags[] = { ">_", "{}", "www", "~/", "(/)", "^_^" };
+static const char *tags[] = { "", "", "", "", "", "", "", "", "" };
 
 static const Rule rules[] = {
 	/* xprop(1):
@@ -100,6 +101,10 @@ static Key keys[] = {
 	TAGKEYS(                        XK_4,                      3)
 	TAGKEYS(                        XK_5,                      4)
 	TAGKEYS(                        XK_6,                      5)
+	TAGKEYS(                        XK_6,                      6)
+	TAGKEYS(                        XK_6,                      7)
+	TAGKEYS(                        XK_6,                      8)
+	TAGKEYS(                        XK_6,                      9)
 	{ MODKEY|ShiftMask,             XK_q,      quit,           {0} },
 };
 
